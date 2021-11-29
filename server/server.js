@@ -2,6 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const mongoose = require("mongoose");
 const connectDB = require("./db");
+const User = require("./models/User.js")
 //intialise app with express
 const app = express();
 //middlewares
